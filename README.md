@@ -1,3 +1,21 @@
+# muvver_app_clean_architecture — sanitized portfolio copy
+
+Historical Flutter traveler/map interface study with layered modules and tests.
+
+## Setup and scope
+
+The unused Dart key helper accepts `--dart-define=GOOGLE_MAPS_API_KEY=...`. Native Google Maps still requires your own configuration in `android/app/src/main/AndroidManifest.xml` and `ios/Runner/AppDelegate.swift`; their historical values were replaced with explicit placeholders. Configure native build secrets locally before testing maps. Native map builds were not verified during publication.
+
+Use a Flutter/Dart version compatible with the checked-in `pubspec.yaml`; several projects require Dart 2. No SDK upgrade or passing application build is claimed by this publication.
+
+## History and provenance
+
+This new repository contains a sanitized copy of the original Git history. Original commit authors, committers and dates were preserved; affected hashes changed. The original repository stays private and unchanged. Provider credentials were removed from every retained branch before upload. This does not revoke the old credentials. No license or authorship was reassigned.
+
+Automated publication checks cover history metadata, sensitive-value removal and secret scanning. They do not establish provider availability, backend permissions, or a working build on current Flutter. Application tests not explicitly listed as run remain unverified.
+
+## Original project notes
+
 ## Muvver App
 
 ## Links 
